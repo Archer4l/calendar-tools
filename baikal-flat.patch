@@ -1,5 +1,5 @@
 this patch enables Baikal 0.2.7 to deliver caldav directories via http-GET
-diff -ru A/baikal-flat/vendor/sabre/dav/lib/Sabre/DAV/Server.php B/baikal-flat/vendor/sabre/dav/lib/Sabre/DAV/Server.php
+diff -ru vendor/sabre/dav/lib/Sabre/DAV/Server.php vendor/sabre/dav/lib/Sabre/DAV/Server.php
 --- vendor/sabre/dav/lib/Sabre/DAV/Server.php	2013-10-02 20:38:26.000000000 +0200
 +++ vendor/sabre/dav/lib/Sabre/DAV/Server.php	2016-08-15 23:00:00.000000000 +0400
 @@ -525,9 +525,15 @@
